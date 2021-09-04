@@ -1,0 +1,57 @@
+
+Xcursor.theme: pixelfun2
+
+!URxvt.font:xft:Cozette:pixelsize=10
+!URxvt.font:xft:Hack:pixelsize=14
+URxvt.font:xft:Terminus-Regular:pixelsize=14
+
+URxvt.perl-ext-common: font-size
+
+Xft*dpi:                106
+Xft*antialias:          true
+Xft*hinting:            true
+
+URxvt.transparent:	true
+URxvt.shading:		15
+!URxvt.lineSpace: 	-1 
+URxvt.letterSpace: 	0 
+URxvt.cursorBlink: 	1
+
+URxvt*scrollBar:   	false
+ 
+! special
+*.foreground:   gray
+*.background:   #1d1f21
+*.cursorColor:  #c5c5c5
+
+! black
+*.color0:       #393939
+*.color8:       #393939
+
+! red
+*.color1:       #a54242
+*.color9:       #cc6666
+
+! green
+*.color2:       #8c9440
+*.color10:      #b5bd68
+
+! yellow
+*.color3:       #de935f
+*.color11:      #f0c674
+
+! blue
+*.color4:       #5f819d
+*.color12:      #81a2be
+
+! magenta
+*.color5:       #85678f
+*.color13:      #b294bb
+
+! cyan
+*.color6:       #5e8d87
+*.color14:      #8abeb7
+
+! white
+*.color7:       #e5e5e5
+*.color15:      #e5e5e5

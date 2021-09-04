@@ -1,0 +1,30 @@
+"~/.bin/kbd_layout/change"
+XF86Launch3
+
+#"scrot -q 80 ~/Documents/screenshots/screen.jpg"
+"flameshot gui"
+Shift + BackSpace
+
+"xbacklight -inc 10 -steps 1"
+XF86MonBrightnessUp
+
+"xbacklight -dec 10 -steps 1"
+XF86MonBrightnessDown
+
+"~/.bin/screen_toggle/run"
+XF86AudioMicMute
+
+"amixer set Master 2%+"
+XF86AudioRaiseVolume
+
+"amixer set Master 2%-"
+XF86AudioLowerVolume
+
+"amixer set Master toggle;amixer set Speaker unmute;amixer set Headphone unmute"
+XF86AudioMute
+
+"cat ~/.bin/mouseMacro|xmacroplay"
+XF86Launch111
+
+"xdotool click 3"
+XF86Launch1 + Release
